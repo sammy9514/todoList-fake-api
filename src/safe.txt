@@ -1,0 +1,16 @@
+    // if (urgent === "Important") {
+    //   return "#ff0000c0";
+    // } else if (urgent === "Casual") {
+    //   return "#00808092";
+    // } else if (urgent === "Fair") {
+    //   return "#ffd90092";
+    // }
+    return urgent === "Important"
+      ? "#ff0000c0"
+      : urgent === "Casual"
+      ? "#00808092"
+      : urgent === "Fair"
+      ? "#ffd90092"
+      : "white";
+
+              // style={{ backgroundColor: urgencyColor(props.urgency) }}
